@@ -42,7 +42,7 @@ public class StaXParser {
       while (eventReader.hasNext()) {
         XMLEvent event = eventReader.nextEvent();
 
-        if (event.asStartElement().getName().equals(PART){
+        if (event.asStartElement().getName().equals(PART)){
 
           if (event.isStartElement()) {
             StartElement startElement = event.asStartElement();
