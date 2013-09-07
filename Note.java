@@ -1,20 +1,12 @@
-public class Part {
-  private String measure; 
+public class Note {
+
   private String pitch;
   private String step;
   private String alter;
   private String octave;
   private String chord;
-  private String tie;
-  private String backup;
-  private String duration;
-  
-  public String getMeasure() {
-    return measure;
-  }
-  public void setMeasure(String measure) {
-    this.measure = measure;
-  }
+  private int duration;
+
   public String getPitch() {
     return pitch;
   }
@@ -39,23 +31,11 @@ public class Part {
   public void setOctave(String octave) {
     this.octave = octave;
   }
-    public String getChord() {
+  public String getChord() {
     return chord;
   }
   public void setChord(String chord) {
     this.chord = chord;
-  }
-  public String getTie() {
-    return tie;
-  }
-  public void setTie(String tie) {
-    this.tie = tie;
-  }
-  public String getBackup() {
-    return backup;
-  }
-  public void setBackup(String backup) {
-    this.backup = backup;
   }
   public String getDuration() {
     return duration;
@@ -64,10 +44,4 @@ public class Part {
     this.duration = duration;
   }
 
-
-  @Override
-  public String toString() {
-    return "Part [alter=" + alter + ", measure=" + measure + ", octave="
-        + octave + ", note=" + note + ", pitch=" + pitch + "]";
-  }
-} 
+}
