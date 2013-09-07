@@ -8,6 +8,7 @@ public class Part {
   private String tie;
   private String backup;
   private String duration;
+  private String note;
   
   public String getMeasure() {
     return measure;
@@ -63,7 +64,12 @@ public class Part {
   public void setDuration(String duration) {
     this.duration = duration;
   }
-
+  public String getNote() {
+    return note;
+  }
+  public void setNote(String note) {
+    this.note = note;
+  }
 
   @Override
   public String toString() {
