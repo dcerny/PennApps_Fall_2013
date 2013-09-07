@@ -1,7 +1,4 @@
 import java.util.List;
-import PennApps.StaXParser;
-import PennApps.Part;
-import PennApps.Note;
 
 public class TestRead {
   public static void main(String args[]) {
